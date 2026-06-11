@@ -144,20 +144,5 @@ Additional outputs:
 - `revision_plan/`: manual-review memos and manuscript-readiness checks.
 - `tables/final_model_table_v3.csv`: resolved final model table.
 
-## Reproducibility and interpretation checks
 
-- Do not report a numerical manuscript value unless it is traceable to the
-  master results dictionary or a verified output table.
-- Review the approximate survey-variance implementation independently before
-  submission.
-- Product-code plausibility and narrative-keyword validation require human
-  review.
-- Adjusted weekly models remain sensitivity analyses when residual dependence
-  or specification sensitivity persists.
-- LDA, TF-IDF, SVD, and t-SNE are not part of the primary workflow.
 
-## Naming
-
-The standard abbreviation is **NEISS**. Portable notebook and script names use
-`NEISS`; older original files with misspellings were preserved rather than
-renamed or overwritten.

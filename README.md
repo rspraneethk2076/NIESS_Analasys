@@ -1,4 +1,4 @@
-# NEISS World Cup Analysis: Reproducibility Guide
+# NEISS World Cup Analysis: 
 
 ## Scientific question
 

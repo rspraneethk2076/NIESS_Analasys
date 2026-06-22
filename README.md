@@ -13,25 +13,16 @@ The principal research question is:
 > NEISS-estimated soccer-related emergency department injuries in the United
 > States?
 
-The analysis is observational and ecological. Results should be described as
-calendar-period associations and should not be interpreted as causal effects or
-as evidence that individual patients watched, attended, or participated in a
-World Cup event.
+
 
 ## Main Notebook
 
-`NEISS_world_cup_analysis_v4_code_only_executed.ipynb`
 
-This is the compact, code-only version of the final executed notebook. It
-contains seven partitioned code cells, their saved outputs, and no Markdown
-cells or inline Python comments. This README supplies the scientific and
-reproducibility context intentionally removed from that notebook.
 
-The annotated source notebook is preserved separately:
 
-`NEISS_world_cup_analysis_v4_final_executed.ipynb`
+`NEISS_world_cup_analysis_v4.ipynb`
 
-Do not overwrite the preserved source notebook when rerunning the analysis.
+
 
 ## Data Source
 
@@ -239,9 +230,7 @@ It contains:
 - `verification_report.json`
 - `sha256_manifest.json`
 
-The verified master-results dictionary is the authoritative numerical source
-for manuscript revision. Manuscript numbers should not be copied from console
-text or reconstructed manually when a verified table value is available.
+
 
 ## Reproduction Checks
 
@@ -266,8 +255,7 @@ reproducibility checks, not as values to hard-code:
 - Weekly adjusted HAC lag-8 ratio: 1.18205
 - Quasi-Poisson/HAC ratio: 1.14630
 
-Small formatting differences are acceptable, but unexplained numerical
-differences should be investigated before manuscript values are updated.
+
 
 ## Statistical Notes
 
@@ -285,36 +273,6 @@ LDA, TF-IDF, SVD, t-SNE, and narrative clustering are exploratory or
 supplementary analyses. They should not be presented as primary evidence for
 the World Cup association.
 
-## Reporting Language
 
-Use this denominator description where applicable:
-
-> NEISS-estimated emergency department-treated consumer product and
-> recreation-related injuries.
-
-Prefer cautious terms such as:
-
-- association
-- temporal association
-- ecological calendar-period association
-- hypothesis-generating
-
-Avoid causal wording and avoid the undefined phrase "all injuries."
-
-Every reported table should identify the numerator, denominator, unweighted
-sample size, weighted national estimate, weighted percentage, comparison group,
-and 95% confidence interval when available.
-
-## Reproducibility And Preservation
-
-- Preserve the original executed and annotated notebooks.
-- Write reruns to new notebook and output names.
-- Do not manually edit generated CSV values.
-- Use the verified master-results dictionary for manuscript numbers.
-- Retain the verification report and checksum manifest with shared outputs.
-- Record any change to exposure dates, product codes, comparison windows, or
-  model specification before rerunning the analysis.
-
-The code-only notebook is intended for compact technical delivery. The
 annotated notebook, this README, the analysis plan, and the verified output
 tables together provide the complete reproducibility record.
